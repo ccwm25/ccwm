@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - CCWM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="container">
+        <div class="logo-section">
+            <a href="index.html">
+                <img src="asset/image.png" alt="CCWM Logo" class="logo">
+            </a>
+        </div>
+
+        <nav class="main-nav" id="mainNav">
+            <ul>
+                <li><a href="about.html"><b>About CCWM</b></a></li>
+                <li><a href="news.html"><b>Latest News</b></a></li>
+                <li><a href="charter.html"><b>Charter</b></a></li>
+                <li><a href="officer.html"><b>Officers</b></a></li>
+                <li><a href="events.html" class="active"><b>Events</b></a></li>
+                <li><a href="member.html"><b>Become a Member</b></a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <h1>Events</h1>
+
+            <div class="external-link-notice">
+                <p>For more events, please visit: <a href="https://events.polyu.edu.hk/cwm/home" target="_blank">https://events.polyu.edu.hk/cwm/home</a></p>
+            </div>
+
+            <div class="events-list">
+                <div class="event-item">
+                    <div class="event-date">4, October, 2025</div>
+                    <div class="event-title">
+                        <a href="https://events.polyu.edu.hk/cwm/home" target="_blank">Inauguration Ceremony of the Consortium of Chinese Women Mathematicians and the Women Mathematicians Forum</a>
+                    </div>
+                </div>
+
+                <div class="event-item hidden" data-more="true">
+                    <div class="event-date">Date 2</div>
+                    <div class="event-title">
+                        <a href="#event-2">Event 2</a>
+                    </div>
+                </div>
+
+                <div class="event-item hidden" data-more="true">
+                    <div class="event-date">Date 3</div>
+                    <div class="event-title">
+                        <a href="#event-3">Event 3</a>
+                    </div>
+                </div>
+
+                <div class="show-more-btn">
+                    <button id="showMoreEvents">&gt;&gt; Show More</button>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Consortium of Chinese Women Mathematicians (CCWM). All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
